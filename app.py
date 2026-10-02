@@ -17,8 +17,8 @@ LABELS = {1: "Real", 0: "AI-Generated"}
 
 st.set_page_config(page_title="Spot the Fake Face", layout="wide")
 
-## Default Gradio felt cramped, so I bumped up the image, buttons and text
-## and added green/red result boxes so it's easy to tell who got it right.
+# The default layout felt cramped, so I bumped up the image, buttons and text
+# and added green/red result boxes so it's easy to tell who got it right.
 CSS = """
 <style>
 .block-container {max-width: 1100px; padding-top: 2rem;}
