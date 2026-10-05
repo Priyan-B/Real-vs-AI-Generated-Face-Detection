@@ -58,10 +58,7 @@ def load_pool():
         it["prob_real"] = float(p)
     return items
 
-
 POOL = load_pool()
-
-
 
 def new_game():
     st.session_state.game = {
