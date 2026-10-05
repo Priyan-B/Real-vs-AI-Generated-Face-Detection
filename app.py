@@ -62,6 +62,10 @@ def load_pool():
 POOL = load_pool()
 
 
+
+
+
+
 def new_game():
     st.session_state.game = {
         "order": random.sample(range(len(POOL)), k=min(N_ROUNDS, len(POOL))),
