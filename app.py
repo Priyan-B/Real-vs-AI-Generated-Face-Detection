@@ -127,11 +127,6 @@ def guess(choice):
             verdict = f"It's a tie, {h} to {m}."
         g["feedback"] += f'<div class="verdict">{verdict}</div><div class="score">Full results are below.</div>'
 
-
-
-
-
-
 def next_round():
     g = st.session_state.game
     if g["answered"] and not game_over(g):
