@@ -158,12 +158,3 @@ with right:
 if game_over(g):
     st.markdown(accuracy_html(g), unsafe_allow_html=True)
     st.dataframe(pd.DataFrame(g["history"]), hide_index=True)
-
-
-
-
-
-
-
-
-    
