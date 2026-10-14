@@ -15,6 +15,11 @@ N_ROUNDS = 10
 DISPLAY_SIZE = 512
 LABELS = {1: "Real", 0: "AI-Generated"}
 
+
+
+
+
+
 st.set_page_config(page_title="Spot the Fake Face", layout="wide")
 
 # The default layout felt cramped, so I bumped up the image, buttons and text
