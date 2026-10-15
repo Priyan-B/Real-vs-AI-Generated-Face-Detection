@@ -41,7 +41,6 @@ div.stButton > button p {font-size: 1.35rem; font-weight: 700;}
 """
 st.markdown(CSS, unsafe_allow_html=True)
 
-
 @st.cache_resource
 def load_pool():
     model = tf.keras.models.load_model(MODEL_PATH)
@@ -66,81 +65,11 @@ def new_game():
         "pos": 0, "played": 0, "human": 0, "model": 0, "answered": False,
         "history": [], "feedback": '<div class="prompt">Real or AI? Make your call.</div>'}
 
-
 def pct(c, n):
     return f"{100 * c / n:.0f}%" if n else "0%"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def game_over(g):
     return g["answered"] and g["played"] >= len(g["order"])
-
 
 def stats_html(g):
     n, total = g["played"], len(g["order"])
@@ -149,7 +78,6 @@ def stats_html(g):
              ("Model", f"{g['model']} / {n}")]
     cells = "".join(f'<div class="stat"><div class="k">{k}</div><div class="v">{v}</div></div>' for k, v in cards)
     return f'<div class="stats">{cells}</div><div class="bar"><div class="fill" style="width:{100 * n / total:.0f}%"></div></div>'
-
 
 def banner(ok, text):
     return f'<div class="banner {"ok" if ok else "bad"}">{text}</div>'
