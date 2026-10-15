@@ -87,13 +87,11 @@ def stats_html(g):
 def banner(ok, text):
     return f'<div class="banner {"ok" if ok else "bad"}">{text}</div>'
 
-
 def accuracy_html(g):
     n = g["played"]
     cards = [("Your accuracy", pct(g["human"], n)), ("Model accuracy", pct(g["model"], n))]
     cells = "".join(f'<div class="stat"><div class="k">{k}</div><div class="v">{v}</div></div>' for k, v in cards)
     return f'<div class="stats">{cells}</div>'
-
 
 def guess(choice):
     g = st.session_state.game
@@ -133,13 +131,6 @@ def next_round():
         g["pos"] += 1
         g["answered"] = False
         g["feedback"] = '<div class="prompt">Real or AI? Make your call.</div>'
-
-
-
-
-
-
-
 
 if "game" not in st.session_state:
     new_game()
