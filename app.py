@@ -71,6 +71,73 @@ def pct(c, n):
     return f"{100 * c / n:.0f}%" if n else "0%"
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def game_over(g):
     return g["answered"] and g["played"] >= len(g["order"])
 
