@@ -135,6 +135,12 @@ def next_round():
         g["feedback"] = '<div class="prompt">Real or AI? Make your call.</div>'
 
 
+
+
+
+
+
+
 if "game" not in st.session_state:
     new_game()
 g = st.session_state.game
