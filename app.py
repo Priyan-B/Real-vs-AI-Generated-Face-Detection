@@ -80,68 +80,7 @@ def pct(c, n):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#22222
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#2222
 def game_over(g):
     return g["answered"] and g["played"] >= len(g["order"])
 
