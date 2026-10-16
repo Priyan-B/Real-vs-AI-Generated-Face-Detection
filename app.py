@@ -146,7 +146,79 @@ with right:
     st.button("AI-Generated", on_click=guess, args=(0,), disabled=g["answered"])
     st.button("Next Image", on_click=next_round, disabled=not g["answered"] or game_over(g))
     st.button("New Game", on_click=new_game)
+\\\\\
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 if game_over(g):
     st.markdown(accuracy_html(g), unsafe_allow_html=True)
     st.dataframe(pd.DataFrame(g["history"]), hide_index=True)
