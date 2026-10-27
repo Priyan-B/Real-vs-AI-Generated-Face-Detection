@@ -92,6 +92,69 @@ div.stButton > button p {font-size: 1.35rem; font
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -weight: 700;}
 .prompt {font-size: 1.6rem; font-weight: 800; margin: 4px 0 10px;}
 .answer {font-size: 1.9rem; font-weight: 800; margin: 4px 0 8px;}
