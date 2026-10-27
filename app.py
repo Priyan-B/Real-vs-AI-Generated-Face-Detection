@@ -27,7 +27,72 @@ CSS = """
 .bar {height: 10px; border-radius: 6px; background: rgba(128,128,128,.25); overflow: hidden; margin-bottom: 18px;}
 .bar .fill {height: 100%; background: #4f46e5;}
 div.stButton > button {width: 100%; min-height: 70px;}
-div.stButton > button p {font-size: 1.35rem; font-weight: 700;}
+div.stButton > button p {font-size: 1.35rem; font
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-weight: 700;}
 .prompt {font-size: 1.6rem; font-weight: 800; margin: 4px 0 10px;}
 .answer {font-size: 1.9rem; font-weight: 800; margin: 4px 0 8px;}
 .banner {padding: 12px 16px; border-radius: 10px; font-size: 1.15rem; font-weight: 600; margin: 8px 0;}
