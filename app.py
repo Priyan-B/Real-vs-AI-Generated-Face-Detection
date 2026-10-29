@@ -86,6 +86,52 @@ def accuracy_html(g):
     cells = "".join(f'<div class="stat"><div class="k">{k}</div><div class="v">{v}</div></div>' for k, v in cards)
     return f'<div class="stats">{cells}</div>'
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def guess(choice):
     g = st.session_state.game
     if g["answered"]:
