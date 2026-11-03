@@ -102,6 +102,7 @@ def guess(choice):
     g["answered"] = True
     g["history"].append({"Round": g["played"], "Answer": LABELS[truth],
                          "You": LABELS[choice], "Model": LABELS[model_pick]})    
+
     g["feedback"] = (f'<div class="answer">It was {LABELS[truth]}</div>'
                      + banner(you_ok, f"You: {LABELS[choice]} ({'correct' if you_ok else 'wrong'})")
                      + banner(model_ok, f"Model: {LABELS[model_pick]} ({'correct' if model_ok else 'wrong'}), "
